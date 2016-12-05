@@ -23,7 +23,7 @@
 		848C54201DF615E800F4B762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848C54231DF615E800F4B762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848C54251DF615E800F4B762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		848C542B1DF6164300F4B762 /* car2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = car2.swift; sourceTree = "<group>"; };
+		848C542B1DF6164300F4B762 /* car2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = car2.swift; path = ../car2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,6 @@
 		848C540D1DF615E800F4B762 = {
 			isa = PBXGroup;
 			children = (
-				848C542B1DF6164300F4B762 /* car2.swift */,
 				848C54181DF615E800F4B762 /* gitHubPractice2 */,
 				848C54171DF615E800F4B762 /* Products */,
 			);
@@ -59,6 +58,7 @@
 			children = (
 				848C54191DF615E800F4B762 /* AppDelegate.swift */,
 				848C541B1DF615E800F4B762 /* ViewController.swift */,
+				848C542B1DF6164300F4B762 /* car2.swift */,
 				848C541D1DF615E800F4B762 /* Main.storyboard */,
 				848C54201DF615E800F4B762 /* Assets.xcassets */,
 				848C54221DF615E800F4B762 /* LaunchScreen.storyboard */,
@@ -303,6 +303,7 @@
 				848C542A1DF615E800F4B762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
